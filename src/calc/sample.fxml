@@ -1,0 +1,27 @@
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane prefHeight="339.0" prefWidth="366.0" xmlns="http://javafx.com/javafx/10.0.2-internal"
+      xmlns:fx="http://javafx.com/fxml/1" fx:controller="calc.Controller">
+
+    <TextField fx:id="textField" layoutX="54.0" layoutY="14.0" prefHeight="25.0" prefWidth="258.0" />
+    <Button fx:id="button1" layoutX="29.0" layoutY="53.0" prefHeight="40.0" prefWidth="40.0" text="1" onAction="#clickBtnAddText"/>
+    <Button fx:id="button2" layoutX="82.0" layoutY="53.0" prefHeight="40.0" prefWidth="40.0" text="2" onAction="#clickBtnAddText"/>
+    <Button fx:id="button3" layoutX="135.0" layoutY="53.0" prefHeight="40.0" prefWidth="40.0" text="3" onAction="#clickBtnAddText"/>
+    <Button fx:id="button4" layoutX="29.0" layoutY="103.0" prefHeight="40.0" prefWidth="40.0" text="4" onAction="#clickBtnAddText"/>
+    <Button fx:id="button5" layoutX="82.0" layoutY="103.0" prefHeight="40.0" prefWidth="40.0" text="5" onAction="#clickBtnAddText"/>
+    <Button fx:id="button6" layoutX="135.0" layoutY="103.0" prefHeight="40.0" prefWidth="40.0" text="6" onAction="#clickBtnAddText"/>
+    <Button fx:id="button7" layoutX="29.0" layoutY="151.0" prefHeight="40.0" prefWidth="40.0" text="7" onAction="#clickBtnAddText"/>
+    <Button fx:id="button8" layoutX="82.0" layoutY="151.0" prefHeight="40.0" prefWidth="40.0" text="8" onAction="#clickBtnAddText"/>
+    <Button fx:id="button9" layoutX="135.0" layoutY="151.0" prefHeight="40.0" prefWidth="40.0" text="9" onAction="#clickBtnAddText"/>
+    <Button fx:id="button0" layoutX="82.0" layoutY="201.0" prefHeight="40.0" prefWidth="40.0" text="0" onAction="#clickBtnAddText"/>
+    <Button fx:id="buttonPlus" layoutX="187.0" layoutY="53.0" prefHeight="40.0" prefWidth="40.0" text="+" onAction="#clickBtnAddText"/>
+    <Button fx:id="buttonMinus" layoutX="187.0" layoutY="103.0" prefHeight="40.0" prefWidth="40.0" text="-" onAction="#clickBtnAddText"/>
+    <Button fx:id="buttonX" layoutX="187.0" layoutY="151.0" prefHeight="40.0" prefWidth="40.0" text="*" onAction="#clickBtnAddText"/>
+    <Button fx:id="buttonY" layoutX="187.0" layoutY="201.0" prefHeight="40.0" prefWidth="40.0" text="/" onAction="#clickBtnAddText"/>
+    <Button fx:id="enter" layoutX="245.0" layoutY="103.0" prefHeight="40.0" prefWidth="92.0" text="Enter" onAction="#calculate"/>
+    <Button fx:id="backspace" layoutX="245.0" layoutY="53.0" prefHeight="40.0" prefWidth="92.0" text="Backspace" onAction="#backspace"/>
+    <Button fx:id="clear" layoutX="245.0" layoutY="201.0" prefHeight="40.0" prefWidth="92.0" text="Clear" onAction="#clear"/>
+    <Label layoutX="58.0" layoutY="308.0" text="Супер-пупер калькулятор! (С) Костя 2020г." />
+
+</Pane>

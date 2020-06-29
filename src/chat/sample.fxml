@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal"
+      xmlns:fx="http://javafx.com/fxml/1" fx:controller="chat.Controller">
+
+      <Button fx:id="enter" layoutX="482.0" layoutY="364.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="112.0"
+              text="Enter" onAction="#sendSMS"/>
+
+      <TextArea fx:id="textArea" layoutX="9.0" layoutY="6.0" prefHeight="353.0" prefWidth="466.0" />
+
+      <TextField fx:id="textField" layoutX="9.0" layoutY="364.0" prefHeight="25.0" prefWidth="466.0" onAction="#sendSMS"/>
+
+</Pane>
